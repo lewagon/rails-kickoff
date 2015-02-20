@@ -1,5 +1,6 @@
-# rails-kickoff
-This is a kick-off roadmap for the lead-developer, in charge of setup / deployment / collaboration.
+# Rails-kickoff
+
+This is Le Wagon's kick-off roadmap for the lead dev (in charge of setup / deployment / collaboration).
 
 ## Rails new
 
