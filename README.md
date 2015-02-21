@@ -18,7 +18,7 @@ $ git push -u origin master
 
 Make sure you have the relevant ruby and rails version set in the `Gemfile`
 
-```ruby
+```rubyu
 # Gemfile
 source 'https://rubygems.org'
 ruby "2.2.0"
@@ -129,7 +129,7 @@ Load our custom LeWagon's stylesheets:
 ```bash
 $ rm -rf app/assets/stylesheets
 $ curl -L https://github.com/lewagon/rails-stylesheets/archive/master.zip > app/assets/stylesheets.zip
-$ cd app/assets && unzip stylesheets.zip && rm stylesheets.zip && mv stylesheets-master stylesheets && cd ../..
+$ cd app/assets && unzip stylesheets.zip && rm stylesheets.zip && mv rails-stylesheets-master stylesheets && cd ../..
 ```
 
 And commit 
