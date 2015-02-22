@@ -2,7 +2,7 @@
 
 This is Le Wagon's kick-off roadmap for the lead dev (in charge of setup / deployment / collaboration).
 
-If you don't want to run this steps by hand, check out the [wagon_rails](https://github.com/lewagon/wagon-rails) gem.
+If you don't want to run this steps by hand, check out the [wagon_rails](https://github.com/lewagon/wagon_rails) gem.
 
 ## Rails new
 
