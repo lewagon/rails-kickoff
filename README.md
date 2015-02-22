@@ -2,6 +2,8 @@
 
 This is Le Wagon's kick-off roadmap for the lead dev (in charge of setup / deployment / collaboration).
 
+If you don't want to run this steps by hand, check out the [wagon_rails](https://github.com/lewagon/wagon-rails) gem.
+
 ## Rails new
 
 Create the project locally and on Github
@@ -25,7 +27,7 @@ ruby "2.2.0"
 gem 'rails', '4.2.0'
 ````
 
-Commit 
+Commit
 
 ```bash
 $ git add .
@@ -101,7 +103,7 @@ Add viewport in layout `application.html.erb`
 </head>
 ```
 
-Add dynamic meta tags in your layout 
+Add dynamic meta tags in your layout
 
 ```erb
 <!-- app/views/layouts/application.html.erb -->
@@ -132,7 +134,7 @@ $ curl -L https://github.com/lewagon/rails-stylesheets/archive/master.zip > app/
 $ cd app/assets && unzip stylesheets.zip && rm stylesheets.zip && mv rails-stylesheets-master stylesheets && cd ../..
 ```
 
-And commit 
+And commit
 
 ```bash
 $ git add .
@@ -167,7 +169,7 @@ $ git push origin master
 
 Then add your team-mates as collaborators and make them clone the repo!
 
-## Heroku 
+## Heroku
 
 ```ruby
 # Gemfile
@@ -342,7 +344,7 @@ Change your devise routing to handle omniauth callbacks
 devise_for :users, controllers: { omniauth_callbacks: "users/omniauth_callbacks" }
 ```
 
-Change `User` model 
+Change `User` model
 
 ```ruby
 # app/models/user.rb
