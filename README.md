@@ -2,7 +2,7 @@
 
 This is Le Wagon's kick-off roadmap for the lead dev (in charge of setup / deployment / collaboration).
 
-If you don't want to run this steps by hand, check out the [wagon_rails](https://github.com/lewagon/wagon_rails) gem.
+If you don't want to run these steps by hand, check out the [wagon_rails](https://github.com/lewagon/wagon_rails) gem to generate a new rails app, its github repo and its heroku app with all the specified instructions below (you won't get the Facebook connect setup though).
 
 ## Rails new
 
